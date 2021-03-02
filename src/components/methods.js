@@ -1,4 +1,4 @@
-import Plotly from "plotly.js";
+import Plotly from "plotly.js-finance-dist";
 
 const plotlyFunctions = ["restyle", "relayout", "update", "addTraces", "deleteTraces", "moveTraces", "extendTraces", "prependTraces", "purge"];
 

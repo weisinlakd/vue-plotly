@@ -1,6 +1,10 @@
 
 <p align="center"><img width="140"src="https://raw.githubusercontent.com/David-Desmaisons/vue-plotly/master/example/assets/logo.png"></p>
 
+
+# Forked for build size reasons 
+<h2> https://github.com/David-Desmaisons/vue-plotly/issues/26 <h2>
+
 # vue-plotly
 [![GitHub open issues](https://img.shields.io/github/issues/David-Desmaisons/vue-plotly.svg)](https://github.com/David-Desmaisons/vue-plotly/issues)
 [![CircleCI](https://circleci.com/gh/David-Desmaisons/vue-plotly.svg?style=shield)](https://circleci.com/gh/David-Desmaisons/vue-plotly)
