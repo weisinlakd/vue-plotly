@@ -11,8 +11,8 @@
     "prepublishOnly": "npm run lint && npm run build && npm run build:doc",
     "test:coverage": "vue-cli-service test:unit --coverage --verbose && codecov"
   },
-  "main": "dist/vue-plotly.umd.js",
-  "module": "dist/vue-plotly.common.min.js",
+  "main": "dist/vue-plotly-finance.umd.js",
+  "module": "dist/vue-plotly-finance.common.min.js",
   "files": [
     "dist/*.css",
     "dist/*.map",
@@ -21,12 +21,12 @@
   ],
   "dependencies": {
     "core-js": "^3.6.4",
-    "plotly.js": "^1.52.1",
     "plotly.js-finance-dist": "^1.58.4",
     "vue": "^2.6.11",
     "vue-resize-directive": "^1.2.0"
   },
   "devDependencies": {
+    "@babel/helper-compilation-targets": "^7.13.16",
     "@vue/cli-plugin-babel": "^4.1.2",
     "@vue/cli-plugin-eslint": "^4.1.2",
     "@vue/cli-plugin-unit-jest": "^4.1.2",
