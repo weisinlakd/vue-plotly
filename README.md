@@ -33,7 +33,7 @@ https://david-desmaisons.github.io/vue-plotly/
 <Plotly :data="data" :layout="layout" :display-mode-bar="false"></Plotly>
 ```
 ```javascript
-import { Plotly } from 'vue-plotly'
+import { Plotly } from 'vue-plotly-finance'
 
 export default {
   components: {
